@@ -21,6 +21,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500" rel="stylesheet">
 
   <!-- CSS-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=83d4b324173a">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -30,6 +31,10 @@
   <!--Favicon-->
   <link rel="icon" type="image/png" href="assets/images/android.png">
   
+   
+
+ 
+
 </head>
 <style>
 header .header-content {
@@ -126,17 +131,25 @@ header .header-content {
         <h1>Douglas Campos</h1>
         <h3 class="header-title">Programador FullStack Developer</h3>
         <p class="header-text">Entre em contato comigo, sou um programador experiente e dedicado a ajudá-lo a alcançar seus objetivos.</p>
-        <a class="button" href="#portfolio">Portfólio</a>
+       
       </div>
       <a class="page-scroll angle-down" href="#skill"><i class="fa fa-angle-down"></i></a>
     </div>
   </header><!-- END HEADER -->
   
 <!--SCILL SECTION-->
+
+
+
+
 <section id="skill" class="page-block">
   <div class="container">
     <!-- name_block -->
+     
+      <div class="z-base ps-absolute t0 r0 b0 l0" id="particles"></div>
     
+
+
 
    <!-- title -->
    <div class="skilltext col-md-offset-1 col-md-10">
@@ -168,9 +181,9 @@ header .header-content {
       </div>
     </li>        
     <li>
-      <h5>JAVA +5 anos</h5>
+      <h5>JAVASCRIPT +5 anos</h5>
       <div class="pro-background">
-        <span class="bar-expand wordpress wow fadeInLeft"></span>
+        <span class="bar-expand css wow fadeInLeft"></span>
       </div>
     </li>
     <li>
@@ -214,7 +227,7 @@ header .header-content {
     </nav> <!-- Portfolio filter end -->
 
     <div class="portfolio_items row">
-      <div class="single_item web-design col-sm-6 col-xs-12 col-md-4">
+      <div class="single_item ecommerce col-sm-6 col-xs-12 col-md-4">
         <a class="image-link works" data-toggle="modal" data-target=".modal1" href="#image-modal1">
           <img src="assets/images/todas.png" alt=""  style="width: 382px; height: 222px;">
         </a>    
@@ -239,7 +252,7 @@ header .header-content {
         </div> 
       </div>
 
-      <div class="single_item application col-sm-6 col-xs-12 col-md-4">
+      <div class="single_item web-design col-sm-6 col-xs-12 col-md-4">
         <a class="image-link works" data-toggle="modal" data-target=".modal3" href="#image-modal3">
           <img src="assets/images/enai.png" alt="" style="width: 382px; height: 222px;">
         </a>    
@@ -289,7 +302,7 @@ header .header-content {
         </div> 
       </div>
 
-      <div class="single_item application col-sm-6 col-xs-12 col-md-4">
+      <div class="single_item web-design col-sm-6 col-xs-12 col-md-4">
         <a class="image-link works" data-toggle="modal" data-target=".modal7" href="#image-modal7">
           <img src="assets/images/cufa.png" alt="" style="width: 382px; height: 222px;">
         </a>    
@@ -329,7 +342,7 @@ header .header-content {
       </div>
 
 
-      <div class="single_item web-design col-sm-6 col-xs-12 col-md-4">
+      <div class="single_item ecommerce col-sm-6 col-xs-12 col-md-4">
         <a class="image-link works" data-toggle="modal" data-target=".modal10" href="#image-modal10">
           <img src="assets/images/rica.png" alt="" style="width: 382px; height: 222px;">
         </a>    
@@ -358,7 +371,7 @@ header .header-content {
 
 
 
-      <div class="single_item web-design col-sm-6 col-xs-12 col-md-4">
+      <div class="single_item development col-sm-6 col-xs-12 col-md-4">
         <a class="image-link works" data-toggle="modal" data-target=".modal12" href="#image-modal12">
           <img src="assets/images/pedpharma.png" alt="" style="width: 382px; height: 222px;">
         </a>    
@@ -472,9 +485,123 @@ header .header-content {
 <script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.easing.min.js"></script>
-<script src="assets/js/jquery.fallings.min.js"></script>
-<script src="assets/js/validator.min.js"></script>
-<script src="assets/js/form-scripts.js"></script>
+<script src="assets/js/jquery.fallings.min.js"></script> 
+
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    (function () {
+      var config = {
+        "particles": {
+          "number": {
+            "value": 100,
+            "density": {
+              "enable": true,
+              "value_area": 800
+            }
+          },
+          "color": {
+            "value": "#848D95"
+          },
+          "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+              "color": "#848D95"
+            },
+            "polygon": {
+              "nb_sides": 5
+            },
+            "image": {
+              "width": 100,
+              "height": 100
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#848D95",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 3,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 400,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 200,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      }
+      //For some reason, on the main page on local it doesn't load before a resize. TOOD: Investigate and confirm is local only.
+      $(window).load(function () { particlesJS("particles", config); });
+    })()
+</script>
+
+
 
 </body>
 </html>
